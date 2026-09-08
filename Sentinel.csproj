@@ -46,6 +46,9 @@
         <Reference Include="UnityEngine.CoreModule">
             <HintPath>$(GameAssemblyPath)\UnityEngine.CoreModule.dll</HintPath>
         </Reference>
+        <Reference Include="UnityEngine">
+            <HintPath>$(GameAssemblyPath)\UnityEngine.dll</HintPath>
+        </Reference>
         <Reference Include="UnityEngine.ImageConversionModule">
             <HintPath>$(GameAssemblyPath)\UnityEngine.ImageConversionModule.dll</HintPath>
         </Reference>
