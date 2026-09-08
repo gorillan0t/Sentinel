@@ -729,7 +729,7 @@ public sealed class PcMenu : MonoBehaviour
         {
             return;
         }
-
+        
         foreach (GorillaPlayerScoreboardLine allScoreboardLine in GorillaScoreboardTotalUpdater.allScoreboardLines)
         {
             if (!(allScoreboardLine == null) && allScoreboardLine.linePlayer != null && !(allScoreboardLine.linePlayer.UserId != selectedPlayerId))
